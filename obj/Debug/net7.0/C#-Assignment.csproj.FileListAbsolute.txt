@@ -1,0 +1,105 @@
+C:/Users/anngu/Desktop/C#-Assignment/bin/Debug/net7.0/C#-Assignment.exe
+C:/Users/anngu/Desktop/C#-Assignment/bin/Debug/net7.0/C#-Assignment.deps.json
+C:/Users/anngu/Desktop/C#-Assignment/bin/Debug/net7.0/C#-Assignment.runtimeconfig.json
+C:/Users/anngu/Desktop/C#-Assignment/bin/Debug/net7.0/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment/bin/Debug/net7.0/C#-Assignment.pdb
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.csproj.AssemblyReference.cache
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.AssemblyInfoInputs.cache
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.AssemblyInfo.cs
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.csproj.CoreCompileInputs.cache
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/refint/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.pdb
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/C#-Assignment.genruntimeconfig.cache
+C:/Users/anngu/Desktop/C#-Assignment/obj/Debug/net7.0/ref/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/bin/Debug/net7.0/C#-Assignment
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/bin/Debug/net7.0/C#-Assignment.deps.json
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/bin/Debug/net7.0/C#-Assignment.runtimeconfig.json
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/bin/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/bin/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.csproj.AssemblyReference.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.AssemblyInfoInputs.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.AssemblyInfo.cs
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.csproj.CoreCompileInputs.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/refint/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/C#-Assignment.genruntimeconfig.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment/obj/Debug/net7.0/ref/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.exe
+C:/Users/anngu/Desktop/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.deps.json
+C:/Users/anngu/Desktop/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.runtimeconfig.json
+C:/Users/anngu/Desktop/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.pdb
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.csproj.AssemblyReference.cache
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.AssemblyInfoInputs.cache
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.AssemblyInfo.cs
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.csproj.CoreCompileInputs.cache
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/refint/C#-Assignment.dll
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.pdb
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.genruntimeconfig.cache
+C:/Users/anngu/Desktop/C#-Assignment (1)/obj/Debug/net7.0/ref/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.deps.json
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.runtimeconfig.json
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/bin/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.csproj.AssemblyReference.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.AssemblyInfoInputs.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.AssemblyInfo.cs
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.csproj.CoreCompileInputs.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/refint/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/C#-Assignment.genruntimeconfig.cache
+/Users/macos/Documents/Zalo Received Files/C#-Assignment (1)/obj/Debug/net7.0/ref/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/bin/Debug/net7.0/C#-Assignment
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/bin/Debug/net7.0/C#-Assignment.deps.json
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/bin/Debug/net7.0/C#-Assignment.runtimeconfig.json
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/bin/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/bin/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.csproj.AssemblyReference.cache
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.AssemblyInfoInputs.cache
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.AssemblyInfo.cs
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.csproj.CoreCompileInputs.cache
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/refint/C#-Assignment.dll
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.pdb
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/C#-Assignment.genruntimeconfig.cache
+/Users/macos/Documents/Zalo Received Files/SchoolManagement/obj/Debug/net7.0/ref/C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManagement\bin\Debug\net7.0\C#-Assignment.exe
+C:\Users\anngu\Desktop\SchoolManagement\bin\Debug\net7.0\C#-Assignment.deps.json
+C:\Users\anngu\Desktop\SchoolManagement\bin\Debug\net7.0\C#-Assignment.runtimeconfig.json
+C:\Users\anngu\Desktop\SchoolManagement\bin\Debug\net7.0\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManagement\bin\Debug\net7.0\C#-Assignment.pdb
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.csproj.AssemblyReference.cache
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.AssemblyInfoInputs.cache
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.AssemblyInfo.cs
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\refint\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.pdb
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\C#-Assignment.genruntimeconfig.cache
+C:\Users\anngu\Desktop\SchoolManagement\obj\Debug\net7.0\ref\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManager\bin\Debug\net7.0\C#-Assignment.exe
+C:\Users\anngu\Desktop\SchoolManager\bin\Debug\net7.0\C#-Assignment.deps.json
+C:\Users\anngu\Desktop\SchoolManager\bin\Debug\net7.0\C#-Assignment.runtimeconfig.json
+C:\Users\anngu\Desktop\SchoolManager\bin\Debug\net7.0\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManager\bin\Debug\net7.0\C#-Assignment.pdb
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.csproj.AssemblyReference.cache
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.AssemblyInfoInputs.cache
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.AssemblyInfo.cs
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\refint\C#-Assignment.dll
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.pdb
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\C#-Assignment.genruntimeconfig.cache
+C:\Users\anngu\Desktop\SchoolManager\obj\Debug\net7.0\ref\C#-Assignment.dll
