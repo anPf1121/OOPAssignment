@@ -169,7 +169,7 @@ public class Program
                         break;
                     case 3:
                         idClassOfStudent = Utils.Cnsole.GetIdClassOfStudent(classesManager);
-                        if (classesManager.ChangeClassOfStudent(id, idClassOfStudent, studentsManager) == 1)
+                        if (classesManager.ChangeClassOfStudent(id, idClassOfStudent) == 1)
                             Utils.Cnsole.Notification("Change Class Of Student Completed!");
                         break;
                     case 4:
@@ -197,7 +197,7 @@ public class Program
                 {
                     case 1:
                         fieldToUpdate = Utils.Cnsole.GetFieldToUpdateClass();
-                        updateStatus = classesManager.UpdateClassInfo(searchName, fieldToUpdate, facultiesManager);
+                        updateStatus = classesManager.UpdateClassInfo(searchName, fieldToUpdate);
 
                         if (updateStatus == 0) Utils.Cnsole.Notification("Invalid Choice!");
 
@@ -211,7 +211,7 @@ public class Program
 
                         return;
                     case 3:
-                        showStatus = classesManager.ShowStudents(searchName, studentsManager);
+                        showStatus = classesManager.ShowStudents(searchName);
                         if (showStatus == 0) Utils.Cnsole.Notification("Not Found!");
                         else if (showStatus == -1) Utils.Cnsole.Notification("Class Don't Have Any Student!");
                         else if (showStatus == 1)

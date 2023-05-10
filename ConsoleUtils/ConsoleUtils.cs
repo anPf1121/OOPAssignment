@@ -76,7 +76,7 @@ namespace Utils
         }
         public static Class GetClass()
         {
-            Class cls = new Class("", "", "", "", "", "");
+            Class cls = new Class("", "", "", "", "", null);
             cls.ClassName = Utils.Cnsole.GetValueField("Class Name").ToUpper();
 
             if (!GetStudyDay(cls))

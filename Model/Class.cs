@@ -5,7 +5,7 @@ namespace Model
     [Serializable]
     public class Class
     {
-        public List<Student> Students { get; set; } = default!;
+        private List<Student> Students { get; set; } = default!;
         public Class(
             string? classRoom, string className,
             string? studyDay, string studyTime,
@@ -18,16 +18,22 @@ namespace Model
             this.StudyDay = studyDay;
             this.StudyTime = studyTime;
             this.ClassStatus = classStatus;
-            this.Faculty = faculty;
+            this.FacultyName = faculty;
         }
         public string? ClassRoom { get; set; }
         public string ClassName { get; set; } = default!;
         public string? StudyDay { get; set; }
         public string? StudyTime { get; set; }
         public string? ClassStatus { get; set; }
-        public string? Faculty { get; set; }
-        public int ChangeFaculty(FacultiesManager facultiesManager)
+        public string? FacultyName { get; set; }
+        private Faculty? Faculty { get; set; }
+        public List<Student> StudentList() 
         {
+            return Students;
+        }
+        public int ChangeFaculty()
+        {
+            FacultiesManager facultiesManager = new FacultiesManager();
             if (facultiesManager.FacultyList() != null)
             {
                 List<string> facultiesName = new List<string>();
@@ -39,10 +45,21 @@ namespace Model
                 if (!(choose > 0 && choose <= facultiesName.Count()))
                     return -1;
 
-                Faculty = facultiesName[choose - 1];
-                return 1;
+                FacultyName = facultiesName[choose - 1];
+
+                Faculty = facultiesManager.FacultyList()[choose - 1];
+
+                foreach (Faculty faculty in facultiesManager.FacultyList())
+                {
+                    if (faculty.FullName == FacultyName)
+                    {
+                        Faculty = faculty;
+                        return 1;
+                    }
+                }
             }
             else return 0;
+            return 0;
         }
         public int AddStudent(int id)
         {

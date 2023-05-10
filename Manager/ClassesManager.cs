@@ -32,9 +32,10 @@ namespace Management
             }
             return 1;
         }
-        public int UpdateClassInfo(string? className, int fieldIdToUpdate, FacultiesManager facultiesManager)
+        public int UpdateClassInfo(string? className, int fieldIdToUpdate)
         {
             FileHandling.ClassesFileHandler file = new FileHandling.ClassesFileHandler();
+            FacultiesManager facultiesManager = new FacultiesManager();
             int addFacultyStatus = 0;
             foreach (Class cls in Classes)
             {
@@ -66,9 +67,9 @@ namespace Management
                             file.WriteToFile(Classes);
                             return 1;
                         case 6:
-                            addFacultyStatus = cls.ChangeFaculty(facultiesManager);
+                            addFacultyStatus = cls.ChangeFaculty();
                             if (!(addFacultyStatus == 1))
-                                cls.ChangeFaculty(facultiesManager);
+                                cls.ChangeFaculty();
 
                             else if (addFacultyStatus == -1) Utils.Cnsole.Notification("Invalid Choice!");
 
@@ -99,13 +100,13 @@ namespace Management
                 {
                     if (cls.ClassName == className)
                     {
-                        string? facultyName = cls.Faculty;
+                        string? facultyName = cls.FacultyName;
                         Console.WriteLine($" Class Name: {cls.ClassName}");
                         Console.WriteLine($" Study Day: {cls.StudyDay}");
                         Console.WriteLine($" Study Time: {cls.StudyTime}");
                         Console.WriteLine($" Class Room: {cls.ClassRoom}");
                         Console.WriteLine($" Status: {cls.ClassStatus}");
-                        Console.WriteLine($" Faculty: {cls.Faculty}");
+                        Console.WriteLine($" Faculty: {cls.FacultyName}");
                         return 1;
                     }
                 }
@@ -143,13 +144,13 @@ namespace Management
             return 1;
         }
 
-        public int FilterClassesByStatus(string? status)
+        public int FilterClassesByStatus(string status)
         {
             Console.WriteLine("-------------------------------------------------------------");
-            Console.WriteLine("                      {0} CLASS", status);
+            Console.WriteLine("                      {0} CLASS", status.ToUpper());
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("| {0,5} | {1,9} | {2,13} | {3, 10} | {4,8} |", "Class", "Study Day", "Study Time", "Class Room", "Status");
-            switch (status)
+            switch (status.ToUpper())
             {
                 case "STUDYING":
                     foreach (Class cls in Classes)
@@ -200,8 +201,9 @@ namespace Management
             }
             return -1;
         }
-        public int ShowStudents(string? className, StudentsManager studentsManager)
+        public int ShowStudents(string? className)
         {
+            StudentsManager studentsManager = new StudentsManager();
             if (Classes != null)
             {
                 Console.WriteLine("-------------------------------------------------------------------------------");
@@ -213,11 +215,11 @@ namespace Management
                 {
                     if (cls.ClassName == className)
                     {
-                        ResetAfterUpdateStudentInfo(cls, studentsManager);
-                        ResetStudentsForClass(cls, studentsManager);
-                        if (cls.Students != null)
+                        ResetAfterUpdateStudentInfo(cls);
+                        ResetStudentsForClass(cls);
+                        if (cls.StudentList() != null)
                         {
-                            foreach (Student student in cls.Students)
+                            foreach (Student student in cls.StudentList())
                             {
                                 Console.WriteLine("| {0,6} | {1,20} | {2,5} | {3, 12} | {4,20} |", student.Id, student.FullName, student.Class, student.Phone, student.Email);
                             }
@@ -230,19 +232,24 @@ namespace Management
 
             return 1;
         }
-        public int ResetAfterUpdateStudentInfo(Class cls, StudentsManager studentsManager) {
-            for(int i = 0; i < cls.Students.Count(); i++) {
+        public int ResetAfterUpdateStudentInfo(Class cls)
+        {
+            StudentsManager studentsManager = new StudentsManager();
+            for (int i = 0; i < cls.StudentList().Count(); i++)
+            {
                 for (int j = 0; j < studentsManager.StudentList().Count(); j++)
                 {
-                    if(cls.Students[i].Id == studentsManager.StudentList()[j].Id) {
-                        cls.Students[i] = studentsManager.StudentList()[j];
+                    if (cls.StudentList()[i].Id == studentsManager.StudentList()[j].Id)
+                    {
+                        cls.StudentList()[i] = studentsManager.StudentList()[j];
                     }
                 }
             }
             return 0;
         }
-        public int ResetStudentsForClass(Class cls, StudentsManager studentsManager)
+        public int ResetStudentsForClass(Class cls)
         {
+            StudentsManager studentsManager = new StudentsManager();
             foreach (Student student in studentsManager.StudentList())
             {
                 if (cls.ClassName == student.Class)
@@ -264,8 +271,9 @@ namespace Management
                 classesName.Add(cls.ClassName);
             return classesName;
         }
-        public int ChangeClassOfStudent(int studentId, int idClassOfStudent, StudentsManager studentsManager)
+        public int ChangeClassOfStudent(int studentId, int idClassOfStudent)
         {
+            StudentsManager studentsManager = new StudentsManager();
             List<string> classesName = GetListClassName();
             FileHandling.ClassesFileHandler file = new FileHandling.ClassesFileHandler();
             foreach (Class cls in Classes)
@@ -276,7 +284,7 @@ namespace Management
                 }
                 else
                 {
-                    foreach (Student student in cls.Students)
+                    foreach (Student student in cls.StudentList())
                     {
                         if (student.Class == classesName[idClassOfStudent - 1])
                             return -2;

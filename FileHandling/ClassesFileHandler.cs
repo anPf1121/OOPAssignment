@@ -12,7 +12,7 @@ namespace FileHandling
             foreach (Class cls in classes)
             {
                 sw.Write("{0},{1},{2},{3},{4},{5}\n", cls.ClassRoom, cls.ClassName, cls.StudyDay,
-                cls.StudyTime, cls.ClassStatus, cls.Faculty);
+                cls.StudyTime, cls.ClassStatus, cls.FacultyName);
                 sw.Flush();
             }
             fs.Close();
